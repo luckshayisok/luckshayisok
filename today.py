@@ -27,7 +27,7 @@ def get_profile_stats():
     query($login: String!) {
       user(login: $login) {
         followers { totalCount }
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+        repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
           totalCount
           nodes {
             stargazers { totalCount }
