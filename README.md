@@ -1,83 +1,44 @@
-<h1 align="center">Hey, I'm Lakshya 👋</h1>
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .win { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .bar { fill: #21262d; }
+      .dot-r { fill: #ff5f56; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #27c93f; }
+      .prompt { fill: #58a6ff; font-family: 'Courier New', monospace; font-size: 15px; }
+      .cmd { fill: #c9d1d9; font-family: 'Courier New', monospace; font-size: 15px; }
+      .key { fill: #7ee787; font-family: 'Courier New', monospace; font-size: 14px; }
+      .val { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 14px; }
+      .dim { fill: #6e7681; font-family: 'Courier New', monospace; font-size: 13px; }
+      .cursor { fill: #7ee787; }
+    </style>
+  </defs>
 
-<p align="center">
-  <em>IT Systems Engineer & Full-Stack Developer — building AI-powered enterprise tools by day, weird creative side projects by night.</em>
-</p>
+  <rect class="bg" width="600" height="360" rx="10"/>
+  <rect class="win" x="10" y="10" width="580" height="340" rx="8"/>
 
-<p align="center">
-  <a href="https://github.com/luckshayisok">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Building+AI+helpdesk+chatbots+at+enterprise+scale;Python+%7C+Django+%7C+Electron+%7C+Rasa;Automating+IT+with+RMM+scripts+%26+RAG+search;Currently+glitching+out+a+CRT-themed+portfolio" alt="Typing SVG" />
-  </a>
-</p>
+  <rect class="bar" x="10" y="10" width="580" height="34" rx="8"/>
+  <rect class="bar" x="10" y="30" width="580" height="14"/>
+  <circle class="dot-r" cx="32" cy="27" r="6"/>
+  <circle class="dot-y" cx="52" cy="27" r="6"/>
+  <circle class="dot-g" cx="72" cy="27" r="6"/>
+  <text x="300" y="32" text-anchor="middle" class="dim">lakshya@github: ~</text>
 
----
+  <text x="30" y="75" class="prompt">guest@lakshya:~$ <tspan class="cmd">whoami</tspan></text>
+  <text x="30" y="100" class="val">Lakshya Maheshwari — IT Systems Engineer &amp; Full-Stack Developer</text>
 
-### 🛠️ What I work on
+  <text x="30" y="135" class="prompt">guest@lakshya:~$ <tspan class="cmd">cat stack.txt</tspan></text>
+  <text x="30" y="160" class="val">Python · Django · Electron · Rasa · React · TypeScript</text>
 
-- 🤖 **ZerofAI** — an AI-powered IT helpdesk chatbot platform deployed across enterprise clients, spanning Electron frontends, Django backends, and Rasa-based conversational AI
-- 🔍 RAG-based search systems for enterprise knowledge bases (fine-tuned sentence-transformer models, hybrid fuzzy + semantic scoring)
-- ⚙️ Python automation scripts for IT/RMM environments — self-healing fixers for Outlook, Teams, OneDriveSync, and more
-- 🎨 A personal portfolio site with WebGL particles, GSAP animations, and a glitchy CRT aesthetic
+  <text x="30" y="195" class="prompt">guest@lakshya:~$ <tspan class="cmd">./stats.sh</tspan></text>
+  <text x="30" y="220" class="key">Repositories   <tspan class="val">: 11</tspan></text>
+  <text x="30" y="242" class="key">Stars earned   <tspan class="val">: 2</tspan></text>
+  <text x="30" y="264" class="key">Focus          <tspan class="val">: AI helpdesk automation</tspan></text>
+  <text x="30" y="286" class="key">Currently      <tspan class="val">: building ZerofAI</tspan></text>
 
----
-
-### 💻 Tech Stack
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Electron](https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Rasa](https://img.shields.io/badge/-Rasa-5A17EE?style=for-the-badge&logo=rasa&logoColor=white)
-![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=luckshayisok&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luckshayisok&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=luckshayisok&theme=radical&hide_border=true&background=0d1117" />
-</p>
-
----
-
-### 📌 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/luckshayisok/GEONIX">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=luckshayisok&repo=GEONIX&theme=radical&hide_border=true&bg_color=0d1117" />
-  </a>
-  <a href="https://github.com/luckshayisok/GRINDSETGO">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=luckshayisok&repo=GRINDSETGO&theme=radical&hide_border=true&bg_color=0d1117" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/luckshayisok/prepify">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=luckshayisok&repo=prepify&theme=radical&hide_border=true&bg_color=0d1117" />
-  </a>
-  <a href="https://github.com/luckshayisok/would-you-rather">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=luckshayisok&repo=would-you-rather&theme=radical&hide_border=true&bg_color=0d1117" />
-  </a>
-</p>
-
----
-
-### 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/luckshayisok/luckshayisok/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-<p align="center">
-  📫 Reach me at <a href="mailto:lakshyamaheshwari870@gmail.com">lakshyamaheshwari870@gmail.com</a>
-</p>
+  <text x="30" y="320" class="prompt">guest@lakshya:~$ <tspan class="cursor">▌</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </text>
+</svg>
