@@ -25,6 +25,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Debug - list files
+        run: |
+          pwd
+          ls -la
+          find . -iname "*template*"
+
       - name: Generate updated SVGs
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
