@@ -1,0 +1,45 @@
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .win { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }
+      .bar { fill: #eaeef2; }
+      .dot-r { fill: #ff5f56; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #27c93f; }
+      .prompt { fill: #0969da; font-family: 'Courier New', monospace; font-size: 15px; }
+      .cmd { fill: #24292f; font-family: 'Courier New', monospace; font-size: 15px; }
+      .key { fill: #1a7f37; font-family: 'Courier New', monospace; font-size: 14px; }
+      .val { fill: #24292f; font-family: 'Courier New', monospace; font-size: 14px; }
+      .dim { fill: #57606a; font-family: 'Courier New', monospace; font-size: 13px; }
+      .cursor { fill: #1a7f37; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="600" height="360" rx="10"/>
+  <rect class="win" x="10" y="10" width="580" height="340" rx="8"/>
+
+  <rect class="bar" x="10" y="10" width="580" height="34" rx="8"/>
+  <rect class="bar" x="10" y="30" width="580" height="14"/>
+  <circle class="dot-r" cx="32" cy="27" r="6"/>
+  <circle class="dot-y" cx="52" cy="27" r="6"/>
+  <circle class="dot-g" cx="72" cy="27" r="6"/>
+  <text x="300" y="32" text-anchor="middle" class="dim">lakshya@github: ~</text>
+
+  <text x="30" y="75" class="prompt">guest@lakshya:~$ <tspan class="cmd">whoami</tspan></text>
+  <text x="30" y="100" class="val">Lakshya Maheshwari — IT Systems Engineer &amp; Full-Stack Developer</text>
+
+  <text x="30" y="135" class="prompt">guest@lakshya:~$ <tspan class="cmd">cat stack.txt</tspan></text>
+  <text x="30" y="160" class="val">Python · Django · Electron · Rasa · React · TypeScript</text>
+
+  <text x="30" y="195" class="prompt">guest@lakshya:~$ <tspan class="cmd">./stats.sh --live</tspan></text>
+  <text x="30" y="220" class="key">Repositories   <tspan class="val">: 11</tspan></text>
+  <text x="30" y="242" class="key">Total commits  <tspan class="val">: 83</tspan></text>
+  <text x="30" y="264" class="key">Stars earned   <tspan class="val">: 0</tspan></text>
+  <text x="30" y="286" class="key">Followers      <tspan class="val">: 0</tspan></text>
+  <text x="30" y="308" class="key">GitHub uptime  <tspan class="val">: 2y 320d</tspan></text>
+
+  <text x="30" y="335" class="prompt">guest@lakshya:~$ <tspan class="cursor">▌</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </text>
+</svg>
