@@ -107,8 +107,8 @@ def main():
         "UPTIME": uptime,
     }
 
-    render_svg("templates/dark_mode_template.svg", "dark_mode.svg", values)
-    render_svg("templates/light_mode_template.svg", "light_mode.svg", values)
+    render_svg("templates/dark_mode.svg", "dark_mode.svg", values)
+    render_svg("templates/light_mode.svg", "light_mode.svg", values)
     print("SVGs regenerated:", values)
 
 
